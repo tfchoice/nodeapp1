@@ -28,7 +28,7 @@ http.createServer(function (req, res) {
 	else if (url === "/aboutus") { 
 		fs.readFile("aboutus.html", function (err, pgres) { 
 			if (err) 
-				res.write("TAIL.HTML NOT FOUND"); 
+				res.write("ABOUTUS.HTML NOT FOUND"); 
 			else { 
 				res.writeHead(200, { 'Content-Type': 'text/html' }); 
 				res.write(pgres); 
