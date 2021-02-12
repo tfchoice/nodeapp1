@@ -25,8 +25,8 @@ http.createServer(function (req, res) {
 			} 
 		}); 
 	} 
-	else if (url === "/tailPage") { 
-		fs.readFile("footer.html", function (err, pgres) { 
+	else if (url === "/aboutus") { 
+		fs.readFile("aboutus.html", function (err, pgres) { 
 			if (err) 
 				res.write("TAIL.HTML NOT FOUND"); 
 			else { 
