@@ -49,6 +49,6 @@ http.createServer(function (req, res) {
 		}); 
 	} 
 	
-}).listen(process.env.PORT || 4000, function () { 
+}).listen(3000, function () { 
 	console.log("SERVER STARTED PORT: 4000"); 
 }); 
