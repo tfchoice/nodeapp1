@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "node express appliation",
   "main": "app.js",
-  "scripts": {
+ "scripts": {
    "start": "node app.js"
-  },
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {    
